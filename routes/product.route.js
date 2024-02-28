@@ -6,7 +6,7 @@ router.get('/', getProducts)
 
 router.get('/:id', getProduct)
 
-router.post('/:id', postProduct)
+router.post('/', postProduct)
 
 router.put('/:id', updateProduct)
 
